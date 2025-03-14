@@ -1,0 +1,30 @@
+.add-disease-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .add-disease-form {
+  margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .add-disease-form input,
+  .add-disease-form textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .preview-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  .status-message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

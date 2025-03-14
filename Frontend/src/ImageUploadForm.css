@@ -1,0 +1,89 @@
+
+.page-background {
+    background-color: #f0fdf4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #15803d;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+  
+ 
+  .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #444;
+  }
+  
+  input[type="text"],
+  input[type="file"],
+  select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+ 
+  .submit-button {
+    background-color: #16a34a;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .submit-button:hover {
+    background-color: #15803d;
+  }
+  
+
+  .error {
+    color: #dc2626;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .success {
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+  }
+  
+  .success img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
