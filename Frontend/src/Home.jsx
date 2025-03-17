@@ -54,7 +54,6 @@ function App() {
           endpoint = "all"; 
           break;
       }
-
       try {
         const res = await fetch(`http://localhost:6969/${endpoint}?page=${page}&limit=4`);
         const data = await res.json();

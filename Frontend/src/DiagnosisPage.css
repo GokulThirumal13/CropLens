@@ -108,5 +108,53 @@
     margin-left:-40px;
     padding-top: 10px;
   }
+
+
+  @media screen and (max-width: 600px) {
+    .diagnosis-page {
+      padding: 15px;
+    }
+  
+    .diagnosis-page h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .diagnosis-grid {
+      grid-template-columns: 1fr;
+      padding: 10px;
+      gap: 15px;
+    }
+  
+    .diagnosis-card {
+      padding: 12px;
+    }
+  
+    .diagnosis-card img {
+      height: 140px;
+    }
+  
+    .diagnosis-card h3 {
+      font-size: 16px;
+    }
+  
+    .diagnosis-card p {
+      font-size: 13px;
+    }
+  
+    .delete-btn,
+    .btn-outline {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  
+    .card-buttons {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      gap: 8px;
+    }
+  }
+  
   
   

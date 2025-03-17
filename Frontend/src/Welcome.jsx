@@ -16,7 +16,7 @@ function Welcome() {
         <div className="main">
         <div className="main-text">
           <h1 style={{fontFamily:'times new roman',fontSize:'50px'}}>Welcome to <span style={{fontFamily:'times new roman',fontSize:'50px'}}className="highlight">CropLens</span> 🌱</h1>
-          <p style={{fontFamily:'times new roman',fontSize:'35px'}}>
+          <p style={{fontFamily:'times new roman',fontSize:'30px'}}>
             A smart disease identification platform that helps farmers and agriculturists detect plant problems,
             submit field reports, and take action quickly. Simplify your farming with CropLens.
           </p>

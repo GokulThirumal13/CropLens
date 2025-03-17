@@ -46,7 +46,6 @@ a {
   
   .avatar-circle {
     background-color: green;
-
     color: white;
     height: 45px;
     padding: 10px;
@@ -220,19 +219,106 @@ a {
   }
   
   
-  @media screen and (max-width: 768px) {
-    .hero {
+  @media screen and (max-width: 600px) {
+    .navbar {
       flex-direction: column;
-      text-align: center;
+      align-items: flex-start;
+      padding: 1rem;
+      width: 100%;
+      height: auto;
+      position: static;
     }
   
-    .hero-text,
-    .hero-img {
-      max-width: 100%;
+    .left-nav,
+    .right-nav,
+    .nav-links,
+    .auth-buttons {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      width: 100%;
+    }
+  
+    .logo {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
     }
   
     .nav-links {
-      display: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .nav-links li {
+      font-size: 1rem;
+    }
+  
+    .auth-buttons {
+      width: 100%;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 0.7rem;
+    }
+  
+    .hero {
+      flex-direction: column;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  
+    .hero-text {
+      max-width: 100%;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-img img {
+      width: 90%;
+      margin-top: 1rem;
+    }
+  
+    .tabs {
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+  
+    .disease-cards {
+      flex-direction: column;
+      padding: 1rem;
+      gap: 1rem;
+    }
+  
+    .disease-card {
+      width: 100%;
+    }
+  
+    .report-form input,
+    .report-form textarea,
+    .report-form select {
+      font-size: 1rem;
+    }
+  
+    .forum-preview .forum-post {
+      font-size: 0.95rem;
+    }
+  
+    .avatar-circle {
+      height: 40px;
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .badge {
+      font-size: 8px;
+      padding: 1px 4px;
     }
   }
   

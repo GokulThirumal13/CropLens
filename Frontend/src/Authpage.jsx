@@ -20,7 +20,6 @@ function Login() {
         },
         body: JSON.stringify(payload)
       });
-
       const data = await res.json();
 
       if (!res.ok) {
@@ -36,6 +35,7 @@ function Login() {
          
         }
         if (!isLogin) {
+          setMessage("Registration successful! Please log in.")
           setIsLogin(true);
           navigate("/app");
         }
